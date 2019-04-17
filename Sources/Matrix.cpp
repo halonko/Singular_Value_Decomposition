@@ -15,6 +15,7 @@ Matrix::Matrix(size_t m, size_t n, int new_number_of_threads) {
     number_of_rows = m;
     number_of_columns = n;
     number_of_threads = new_number_of_threads;
+    max_matrix_value = 0;
     for (size_t i = 0; i < number_of_rows; i++) {
         matrix.emplace_back();
         for (size_t j = 0; j < number_of_columns; j++) {
@@ -35,31 +36,21 @@ Matrix Matrix::transpose() {
 }
 
 void Matrix::print() {
-    size_t max_lenght = 0;
-    size_t current_lenght = 0;
+    cout << "Matrix with " << number_of_rows << " rows and " << number_of_columns << " columns: " << endl << endl;
     for (size_t i = 0; i < number_of_rows; i++) {
         for (size_t j = 0; j < number_of_columns; j++) {
-            current_lenght = to_string(matrix.at(i).at(j)).size();
-            if (max_lenght <= current_lenght) {
-                max_lenght = current_lenght;
-            }
-        }
-    }
-
-    size_t empty_space;
-    for (size_t i = 0; i < number_of_rows; i++) {
-        for (size_t j = 0; j < number_of_columns; j++) {
-            empty_space = (max_lenght - to_string(matrix.at(i).at(j)).size()) / 2;
-            string to_print(empty_space, ' ');
-            string to_print_left(max_lenght - empty_space - to_string(matrix.at(i).at(j)).size(), ' ');
-            string empty_field(max_lenght, ' ');
-            cout << to_print_left << matrix.at(i).at(j) << to_print << empty_field;
+            cout << std::setw(static_cast<int>(this->max_matrix_value)) << std::left;
+            cout << matrix.at(i).at(j);
         }
         cout << endl << endl;
     }
 }
 
 void Matrix::set_data(size_t index_row, size_t index_column, double data) {
+    size_t current_length = to_string(matrix.at(index_row).at(index_column)).size();
+    if (this->max_matrix_value <= current_length) {
+        this->max_matrix_value = current_length;
+    }
     matrix.at(index_row).at(index_column) = data;
 }
 
@@ -84,7 +75,7 @@ Matrix Matrix::multiply_by(Matrix matrix1) {
 double Matrix::dot_product(const Matrix& matrix1) {
     auto new_matrix = multiply_by(matrix1);
     double result{0};
-    for(int i = 0; i < new_matrix.number_of_rows; i++){
+    for(size_t i = 0; i < new_matrix.number_of_rows; i++){
         result += new_matrix.get_data(i, 0);
     }
     return result;

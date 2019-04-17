@@ -1,5 +1,4 @@
 #include <iostream>
-#include "functions.h"
 #include "Matrix.h"
 
 int main() {
@@ -10,14 +9,11 @@ int main() {
     matrix.set_data(1, 0, 8);
     matrix.set_data(1, 1, 7);
     matrix.set_data(1, 2, -2);
-//
-//    auto transpose_matrix = matrix.transpose();
-//    matrix.print();
-//    transpose_matrix.print();
-//    auto multiplication_matrix = matrix.multiply_by(transpose_matrix);
-//    multiplication_matrix.print();
-//    multiplication_matrix.norm();
-//    multiplication_matrix.print();
-    svd_for_1_d(matrix);
+
+    auto transpose_matrix = matrix.transpose();
+    matrix.print();
+    transpose_matrix.print();
+    auto multiplication_matrix = matrix.multiply_by(transpose_matrix);
+    multiplication_matrix.print();
     return 0;
 }

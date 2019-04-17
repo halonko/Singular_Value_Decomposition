@@ -6,6 +6,7 @@
 #include <iostream>
 #include <thread>
 #include <math.h>
+#include <iomanip>
 
 class Matrix {
 public:
@@ -33,6 +34,7 @@ private:
     int number_of_threads;
     size_t number_of_rows;
     size_t number_of_columns;
+    size_t max_matrix_value;
     std::vector<std::vector<double>> matrix;
 };
 
