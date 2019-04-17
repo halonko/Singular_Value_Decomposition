@@ -8,6 +8,7 @@ using std::string;
 using std::ceil;
 using std::max;
 using std::min;
+using std::sqrt;
 
 Matrix::Matrix(size_t m, size_t n, int new_number_of_threads) {
     matrix.reserve(m);
@@ -90,4 +91,18 @@ double Matrix::dot_product(const Matrix& matrix1) {
         result += new_matrix.get_data(i, 0);
     }
     return result;
+}
+
+void Matrix::norm() {
+    double length;
+    for(size_t column_index = 0; column_index < number_of_columns; column_index++){
+        length = 0;
+        for(size_t row_index = 0; row_index < number_of_columns; row_index++){
+            length += matrix.at(row_index).at(column_index) * matrix.at(row_index).at(column_index);
+        }
+        length = sqrt(length);
+        for(size_t row_index = 0; row_index < number_of_columns; row_index++){
+            matrix.at(row_index).at(column_index) /= length;
+        }
+    }
 }

@@ -23,6 +23,8 @@ public:
 
     double dot_product(const Matrix& matrix1);
 
+    void norm();
+
 private:
     int number_of_threads;
     size_t number_of_rows;

@@ -6,5 +6,5 @@ find_package(Threads REQUIRED)
 
 include_directories(Headers)
 include_directories(Sources)
-add_executable(curs_work main.cpp Sources/functions.cpp Headers/functions.h Headers/Matrix.cpp Headers/Matrix.h)
+add_executable(curs_work main.cpp Sources/functions.cpp Headers/functions.h Sources/Matrix.cpp Headers/Matrix.h)
 target_link_libraries(curs_work Threads::Threads)
