@@ -3,41 +3,32 @@
 using std::vector;
 using std::min;
 using std::max;
+using std::random_device;
+using std::default_random_engine;
+using std::normal_distribution;
 
-vector<vector<double >> transpose_A(const vector<vector<double>> &A) {
-    return A;
-}
-
-vector<vector<double>> not_transpose_A(const vector<vector<double >> &A) {
-    return A;
-}
-
-vector<vector<double >> multiply_matrix(const vector<vector<double >> &A, const vector<vector<double>> &B) {
-    vector<vector<double>> result;
-    result.reserve(max(A.size(), A[0].size()));
-    for(auto & row : result){
-        row.reserve(max(A.size(), A[0].size()));
+Matrix normaldisribution(size_t n) {
+    Matrix one_d_array = Matrix(n, 1, 4);
+    default_random_engine generator(random_device{}());
+    normal_distribution<double> distribution(0.0, 1.0);
+    for (size_t index = 0; index < n; index++) {
+        one_d_array.set_data(index, 0, distribution(generator));
     }
+    return one_d_array;
 }
 
-double random_number() {
-    return 1;
-}
-
-vector<double > RandomUnitVector(int n) {
-    vector<double > unnormalized = {};
-    vector<double > normalized = {};
-    size_t norm = unnormalized.size();
-    return normalized;
+Matrix RandomUnitVector(int n) {
+    Matrix unnormalized = normaldisribution(n);
+    unnormalized.norm();
+    return unnormalized;
 }
 
 
-vector<double> svd_for_1_d(const vector<vector<double>> &matrix, const double epsilon = 1e-10) {
+Matrix svd_for_1_d(const vector<vector<double>> &matrix, const double epsilon = 1e-10) {
     size_t n = matrix.size();
     size_t m = matrix[0].size();
-    vector<double> x = RandomUnitVector(min(n, m));
-    vector<double> lastV;
-    vector<double> currentV = x;
+    Matrix x = RandomUnitVector(min(n, m));
+    Matrix currentV = x;
     double scalar_product;
     return currentV;
 

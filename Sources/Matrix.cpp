@@ -68,7 +68,7 @@ double Matrix::get_data(size_t index_row, size_t index_column) {
 }
 
 Matrix Matrix::multiply_by(Matrix matrix1) {
-    auto new_matrix = Matrix(number_of_rows, number_of_rows, number_of_threads);
+    auto new_matrix = Matrix(number_of_rows, matrix1.number_of_columns, number_of_threads);
     for(size_t i= 0; i < number_of_rows; i++){
         for(size_t j = 0; j < matrix1.number_of_columns; j++){
             double current{0};
@@ -97,11 +97,11 @@ void Matrix::norm() {
     double length;
     for(size_t column_index = 0; column_index < number_of_columns; column_index++){
         length = 0;
-        for(size_t row_index = 0; row_index < number_of_columns; row_index++){
+        for(size_t row_index = 0; row_index < number_of_rows; row_index++){
             length += matrix.at(row_index).at(column_index) * matrix.at(row_index).at(column_index);
         }
         length = sqrt(length);
-        for(size_t row_index = 0; row_index < number_of_columns; row_index++){
+        for(size_t row_index = 0; row_index < number_of_rows; row_index++){
             matrix.at(row_index).at(column_index) /= length;
         }
     }
