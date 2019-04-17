@@ -24,13 +24,25 @@ Matrix RandomUnitVector(int n) {
 }
 
 
-Matrix svd_for_1_d(const vector<vector<double>> &matrix, const double epsilon = 1e-10) {
-    size_t n = matrix.size();
-    size_t m = matrix[0].size();
+Matrix svd_for_1_d(Matrix &matrix, const double epsilon) {
+    size_t n = matrix.column_size();
+    size_t m = matrix.row_size();
     Matrix x = RandomUnitVector(min(n, m));
+    Matrix lastV = Matrix(min(n, m), 1, 4);
     Matrix currentV = x;
-    double scalar_product;
-    return currentV;
-
+    Matrix result = Matrix(min(n, m), min(n, m), 4);
+    if (n > m) {
+        result = matrix.transpose().multiply_by(matrix);
+    } else {
+        result = matrix.multiply_by(matrix.transpose());
+    }
+    while (true) {
+        lastV = currentV;
+        currentV = result.multiply_by(lastV);
+        currentV.norm();
+        if (fabs(currentV.dot_product(lastV)) > 1 - epsilon) {
+            return currentV;
+        }
+    }
 }
 

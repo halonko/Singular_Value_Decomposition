@@ -25,6 +25,10 @@ public:
 
     void norm();
 
+    size_t row_size();
+
+    size_t column_size();
+
 private:
     int number_of_threads;
     size_t number_of_rows;

@@ -82,9 +82,6 @@ Matrix Matrix::multiply_by(Matrix matrix1) {
 }
 
 double Matrix::dot_product(const Matrix& matrix1) {
-    if(matrix1.number_of_rows != 1 || number_of_columns != 1){
-        throw std::range_error("Must be vector");
-    }
     auto new_matrix = multiply_by(matrix1);
     double result{0};
     for(int i = 0; i < new_matrix.number_of_rows; i++){
@@ -105,4 +102,12 @@ void Matrix::norm() {
             matrix.at(row_index).at(column_index) /= length;
         }
     }
+}
+
+size_t Matrix::row_size() {
+    return number_of_columns;
+}
+
+size_t Matrix::column_size() {
+    return number_of_rows;
 }
