@@ -2,6 +2,7 @@
 
 using std::vector;
 using std::min;
+using std::copy;
 using std::max;
 using std::random_device;
 using std::default_random_engine;
@@ -40,7 +41,7 @@ Matrix svd_for_1_d(Matrix &matrix, const double epsilon) {
         lastV = currentV;
         currentV = result.multiply_by(lastV);
         currentV.norm();
-        if (fabs(currentV.dot_product(lastV)) > 1 - epsilon) {
+        if (fabs(lastV.dot_product(currentV.transpose())) > 1 - epsilon) {
             return currentV;
         }
     }

@@ -1,0 +1,21 @@
+"C:\Users\Zenovii Popenyuk\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.7141.37\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - MinGW Makefiles" D:\Projects\Second_year\Second_semester\LA\curs_work
+CMake Warning at CMakeLists.txt:6 (find_package):
+  By not providing "Findopencv.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "opencv", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "opencv" with any
+  of the following names:
+
+    opencvConfig.cmake
+    opencv-config.cmake
+
+  Add the installation prefix of "opencv" to CMAKE_PREFIX_PATH or set
+  "opencv_DIR" to a directory containing one of the above files.  If "opencv"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-release-mingw

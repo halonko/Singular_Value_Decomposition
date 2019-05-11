@@ -1,0 +1,3 @@
+in_file = SPACE.JPJ
+out_file = result.txt
+type = 1

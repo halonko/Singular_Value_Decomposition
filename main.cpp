@@ -1,19 +1,28 @@
-#include <iostream>
-#include "Matrix.h"
+#include <stdio.h>
+#include <opencv2/opencv.hpp>
 
-int main() {
-    Matrix matrix = Matrix(2, 3, 4);
-    matrix.set_data(0, 0, 4);
-    matrix.set_data(0, 1, 11);
-    matrix.set_data(0, 2, 14);
-    matrix.set_data(1, 0, 8);
-    matrix.set_data(1, 1, 7);
-    matrix.set_data(1, 2, -2);
+using std::cout;
+using std::find;
+using std::endl;
+using std::vector;
+using std::string;
+using std::ifstream;
+using std::ofstream;
 
-    auto transpose_matrix = matrix.transpose();
-    matrix.print();
-    transpose_matrix.print();
-    auto multiplication_matrix = matrix.multiply_by(transpose_matrix);
-    multiplication_matrix.print();
+int main(int argc, char **argv) {
+    if (argc != 2) {
+        cout << "usage: config.txt: <config.txt path>" << endl;
+        return -1;
+    }
+    string in_file;
+    vector<string> conf;
+    ifstream file(argv[1]);
+    while(file >> in_file){
+        if(in_file != "="){
+            conf.push_back(in_file);
+        }
+    }
+    cout << *(find(conf.begin(), conf.end(), "1")) << endl;
+//    out_file << "Result will be here";
     return 0;
 }

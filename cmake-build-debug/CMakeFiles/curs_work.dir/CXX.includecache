@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Headers/Matrix.h
+vector
+-
+iostream
+-
+thread
+-
+math.h
+-
+
+/home/popenyuk/Projects/Second_year/Second_semester/LA/curs_work/main.cpp
+iostream
+-
+Matrix.h
+/home/popenyuk/Projects/Second_year/Second_semester/LA/curs_work/Matrix.h
+
