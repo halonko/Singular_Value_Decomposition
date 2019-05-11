@@ -1,3 +1,0 @@
-/home/popenyuk/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/popenyuk/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-debug/CMakeFiles/curs_work.dir
-/home/popenyuk/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-debug/CMakeFiles/edit_cache.dir

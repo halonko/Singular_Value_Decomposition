@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/curs_work.dir/main.cpp.o CMakeFiles/curs_work.dir/Sources/functions.cpp.o CMakeFiles/curs_work.dir/Headers/Matrix.cpp.o  -o curs_work -lpthread 
