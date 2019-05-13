@@ -40,7 +40,6 @@ double normalize_value(const double &value) {
 }
 
 void convert_vector_to_image(Mat &image, const vector<vector<vector<double>>> &array) {
-    double value;
     for (size_t i = 0; i < image.rows; ++i) {
         for (size_t j = 0; j < image.cols; ++j) {
             auto &rgb = image.at<Vec3b>(i, j);

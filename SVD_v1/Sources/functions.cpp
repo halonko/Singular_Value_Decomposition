@@ -1,4 +1,7 @@
-#include "../Headers/functions.h"
+// This is a personal academic project. Dear PVS-Studio, please check it.
+// PVS-Studio Static Code Analyzer for C, C++, C#, and Java: http://www.viva64.com
+#include <random>
+#include "functions.h"
 #include "time_count.h"
 
 using std::max;
@@ -13,7 +16,7 @@ Matrix normaldisribution(size_t n) {
     Matrix one_d_array = Matrix(n, 1);
     default_random_engine generator(random_device{}());
     normal_distribution<double> distribution(0.0, 1.0);
-    for (size_t index = 0; index < n; index++) {
+    for (size_t index = 0; index < n; ++index) {
         one_d_array.set_data(index, 0, distribution(generator));
     }
     return one_d_array;

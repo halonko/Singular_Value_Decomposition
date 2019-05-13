@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/Projects/Second_year/Second_semester/LA/curs_work
+# Install script for directory: /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

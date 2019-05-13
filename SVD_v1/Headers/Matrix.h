@@ -1,3 +1,5 @@
+// This is a personal academic project. Dear PVS-Studio, please check it.
+// PVS-Studio Static Code Analyzer for C, C++, C#, and Java: http://www.viva64.com
 #ifndef CURS_WORK_MATRIX_H
 #define CURS_WORK_MATRIX_H
 
@@ -13,7 +15,7 @@ public:
 
     Matrix(const Matrix &matrix);
 
-    Matrix(const std::vector<std::vector<double>>& origin);
+    Matrix(const std::vector<std::vector<double>> &origin);
 
     Matrix transpose();
 
@@ -23,9 +25,9 @@ public:
 
     void print() const;
 
-    Matrix multiply_by(const Matrix& matrix1, double number = 1.0);
+    Matrix multiply_by(const Matrix &matrix1, double number = 1.0);
 
-    double dot_product(const Matrix& matrix1);
+    double dot_product(const Matrix &matrix1);
 
     void norm();
 
@@ -42,7 +44,6 @@ public:
     std::vector<std::vector<double>> to_vector();
 
 private:
-    int number_of_threads;
     size_t number_of_rows;
     size_t number_of_columns;
     std::vector<std::vector<double>> matrix;

@@ -4,9 +4,9 @@
 CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o: ../Headers/Matrix.h
 CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o: ../Sources/Matrix.cpp
 
-CMakeFiles/curs_work.dir/Sources/functions.cpp.o: ../Headers/time_count.h
 CMakeFiles/curs_work.dir/Sources/functions.cpp.o: ../Headers/Matrix.h
 CMakeFiles/curs_work.dir/Sources/functions.cpp.o: ../Headers/functions.h
+CMakeFiles/curs_work.dir/Sources/functions.cpp.o: ../Headers/time_count.h
 CMakeFiles/curs_work.dir/Sources/functions.cpp.o: ../Sources/functions.cpp
 
 CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o: ../Headers/read_functions.h

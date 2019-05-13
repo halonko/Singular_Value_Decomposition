@@ -19,8 +19,6 @@ iostream
 ../Headers/functions.h
 vector
 -
-random
--
 Matrix.h
 ../Headers/Matrix.h
 
@@ -36,39 +34,23 @@ atomic
 chrono
 -
 
-/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Headers/Matrix.h
-vector
--
-thread
--
-math.h
--
-iostream
--
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/Sources/Matrix.cpp
+Matrix.h
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/Sources/Matrix.h
 
-/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Headers/functions.h
-vector
--
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/Sources/functions.cpp
 random
 -
-Matrix.h
-/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Headers/Matrix.h
-
-/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/Matrix.cpp
-Matrix.h
-/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/Matrix.h
-
-/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/functions.cpp
-../Headers/functions.h
-/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Headers/functions.h
+functions.h
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/Sources/functions.h
 time_count.h
-/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/time_count.h
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/Sources/time_count.h
 
-/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/read_functions.cpp
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/Sources/read_functions.cpp
 read_functions.h
-/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/read_functions.h
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/Sources/read_functions.h
 
-/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/main.cpp
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/main.cpp
 stdio.h
 -
 iostream
@@ -76,13 +58,13 @@ iostream
 thread
 -
 Matrix.h
-/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Matrix.h
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/Matrix.h
 functions.h
-/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/functions.h
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/functions.h
 time_count.h
-/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/time_count.h
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/time_count.h
 read_functions.h
-/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/read_functions.h
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/read_functions.h
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h

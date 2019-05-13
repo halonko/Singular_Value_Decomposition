@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Projects/Second_year/Second_semester/LA/curs_work
+CMAKE_SOURCE_DIR = /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/curs_work.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/curs_work.dir/flags.make
 
 CMakeFiles/curs_work.dir/main.cpp.o: CMakeFiles/curs_work.dir/flags.make
 CMakeFiles/curs_work.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/curs_work.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curs_work.dir/main.cpp.o -c /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/curs_work.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curs_work.dir/main.cpp.o -c /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/main.cpp
 
 CMakeFiles/curs_work.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/curs_work.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/main.cpp > CMakeFiles/curs_work.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/main.cpp > CMakeFiles/curs_work.dir/main.cpp.i
 
 CMakeFiles/curs_work.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/curs_work.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/main.cpp -o CMakeFiles/curs_work.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/main.cpp -o CMakeFiles/curs_work.dir/main.cpp.s
 
 CMakeFiles/curs_work.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/curs_work.dir/main.cpp.o.provides.build: CMakeFiles/curs_work.dir/mai
 
 CMakeFiles/curs_work.dir/Sources/functions.cpp.o: CMakeFiles/curs_work.dir/flags.make
 CMakeFiles/curs_work.dir/Sources/functions.cpp.o: ../Sources/functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/curs_work.dir/Sources/functions.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curs_work.dir/Sources/functions.cpp.o -c /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/curs_work.dir/Sources/functions.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curs_work.dir/Sources/functions.cpp.o -c /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/Sources/functions.cpp
 
 CMakeFiles/curs_work.dir/Sources/functions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/curs_work.dir/Sources/functions.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/functions.cpp > CMakeFiles/curs_work.dir/Sources/functions.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/Sources/functions.cpp > CMakeFiles/curs_work.dir/Sources/functions.cpp.i
 
 CMakeFiles/curs_work.dir/Sources/functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/curs_work.dir/Sources/functions.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/functions.cpp -o CMakeFiles/curs_work.dir/Sources/functions.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/Sources/functions.cpp -o CMakeFiles/curs_work.dir/Sources/functions.cpp.s
 
 CMakeFiles/curs_work.dir/Sources/functions.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/curs_work.dir/Sources/functions.cpp.o.provides.build: CMakeFiles/curs
 
 CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o: CMakeFiles/curs_work.dir/flags.make
 CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o: ../Sources/Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o -c /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o -c /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/Sources/Matrix.cpp
 
 CMakeFiles/curs_work.dir/Sources/Matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/curs_work.dir/Sources/Matrix.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/Matrix.cpp > CMakeFiles/curs_work.dir/Sources/Matrix.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/Sources/Matrix.cpp > CMakeFiles/curs_work.dir/Sources/Matrix.cpp.i
 
 CMakeFiles/curs_work.dir/Sources/Matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/curs_work.dir/Sources/Matrix.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/Matrix.cpp -o CMakeFiles/curs_work.dir/Sources/Matrix.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/Sources/Matrix.cpp -o CMakeFiles/curs_work.dir/Sources/Matrix.cpp.s
 
 CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o.provides.build: CMakeFiles/curs_wo
 
 CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o: CMakeFiles/curs_work.dir/flags.make
 CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o: ../Sources/read_functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o -c /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/read_functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o -c /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/Sources/read_functions.cpp
 
 CMakeFiles/curs_work.dir/Sources/read_functions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/curs_work.dir/Sources/read_functions.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/read_functions.cpp > CMakeFiles/curs_work.dir/Sources/read_functions.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/Sources/read_functions.cpp > CMakeFiles/curs_work.dir/Sources/read_functions.cpp.i
 
 CMakeFiles/curs_work.dir/Sources/read_functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/curs_work.dir/Sources/read_functions.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/read_functions.cpp -o CMakeFiles/curs_work.dir/Sources/read_functions.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/Sources/read_functions.cpp -o CMakeFiles/curs_work.dir/Sources/read_functions.cpp.s
 
 CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o.requires:
 
@@ -215,7 +215,7 @@ curs_work: /usr/local/lib/libopencv_objdetect.so.3.3.1
 curs_work: /usr/local/lib/libopencv_imgproc.so.3.3.1
 curs_work: /usr/local/lib/libopencv_core.so.3.3.1
 curs_work: CMakeFiles/curs_work.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable curs_work"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable curs_work"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/curs_work.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -235,6 +235,6 @@ CMakeFiles/curs_work.dir/clean:
 .PHONY : CMakeFiles/curs_work.dir/clean
 
 CMakeFiles/curs_work.dir/depend:
-	cd /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Projects/Second_year/Second_semester/LA/curs_work /mnt/d/Projects/Second_year/Second_semester/LA/curs_work /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-debug /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-debug /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-debug/CMakeFiles/curs_work.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1 /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1 /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/cmake-build-debug /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/cmake-build-debug /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/cmake-build-debug/CMakeFiles/curs_work.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/curs_work.dir/depend
 

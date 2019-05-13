@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Projects/Second_year/Second_semester/LA/curs_work
+CMAKE_SOURCE_DIR = /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-release
+CMAKE_BINARY_DIR = /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/cmake-build-release
 
 #=============================================================================
 # Target rules for target CMakeFiles/curs_work.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmak
 CMakeFiles/curs_work.dir/all:
 	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/depend
 	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-release/CMakeFiles --progress-num=1,2,3,4,5 "Built target curs_work"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/cmake-build-release/CMakeFiles --progress-num=1,2,3,4,5 "Built target curs_work"
 .PHONY : CMakeFiles/curs_work.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/curs_work.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/curs_work.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-release/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/cmake-build-release/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/curs_work.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/cmake-build-release/CMakeFiles 0
 .PHONY : CMakeFiles/curs_work.dir/rule
 
 # Convenience name for target.
