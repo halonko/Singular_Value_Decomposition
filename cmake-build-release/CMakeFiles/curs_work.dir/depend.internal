@@ -5,6 +5,7 @@ CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o
  ../Headers/Matrix.h
  /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/Matrix.cpp
 CMakeFiles/curs_work.dir/Sources/functions.cpp.o
+ ../Headers/time_count.h
  /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Headers/Matrix.h
  /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Headers/functions.h
  /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/functions.cpp
@@ -140,6 +141,7 @@ CMakeFiles/curs_work.dir/main.cpp.o
  ../Headers/Matrix.h
  ../Headers/functions.h
  ../Headers/read_functions.h
+ ../Headers/time_count.h
  /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/main.cpp
  /usr/local/include/opencv/cxcore.h
  /usr/local/include/opencv2/calib3d.hpp

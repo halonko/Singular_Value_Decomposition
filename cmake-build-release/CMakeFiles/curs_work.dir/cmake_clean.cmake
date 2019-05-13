@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/curs_work.dir/main.cpp.o"
   "CMakeFiles/curs_work.dir/Sources/functions.cpp.o"
-  "CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.o"
+  "CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o"
   "CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o"
   "curs_work.pdb"
   "curs_work"

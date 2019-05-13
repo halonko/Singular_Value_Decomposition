@@ -30,6 +30,12 @@ vector
 opencv2/opencv.hpp
 -
 
+../Headers/time_count.h
+atomic
+-
+chrono
+-
+
 /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Headers/Matrix.h
 vector
 -
@@ -55,6 +61,8 @@ Matrix.h
 /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/functions.cpp
 ../Headers/functions.h
 /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Headers/functions.h
+time_count.h
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/time_count.h
 
 /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/read_functions.cpp
 read_functions.h
@@ -71,6 +79,8 @@ Matrix.h
 /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Matrix.h
 functions.h
 /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/functions.h
+time_count.h
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/time_count.h
 read_functions.h
 /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/read_functions.h
 

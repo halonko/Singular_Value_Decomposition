@@ -1,0 +1,63 @@
+function RandomUnitVector(n):
+    unnormalized = list of n numbers which are taken from
+                    the normal distribution with mu=0, sigma=1
+    norm = length of unnormalized vector
+    return normnal vector
+
+
+function svd_for_1_d (matrix, epsilon=1e-10):
+    n,m = shape of a matrix
+    x = RandomUnitVector(min(n,m)):
+    lastV = None
+    currentV = x
+
+    if n>m:
+        b = dot product of transpose(A), A
+    else:
+        b = dot product of A, transpose(A)
+
+    while True:
+        lastV = currentV
+        currentV = dot product of b, lastV
+        normalized currentV
+
+        if abs(np - dot product of currentV, lastV) > 1- epsilon:
+            return currentV
+
+
+function SVD(matrix, k=None, epsilon=1e-10)
+    '''
+        Compute the singular value decomposition of a matrix A
+        using the power method. the input matrix, and k
+        is the number of singular values you wish to compute.
+        If k is None, this computes the full-rank decomposition.
+    '''
+    A = float_array(matrix)
+    n,m = shapes of matrix a
+    decomposition = empty list
+    if k is None:
+        k=min(n,m)
+
+    for i in range k:
+        1_D_matrix = copy of A
+
+        for singularvalue, u, v in decomposition[:i]:
+            1_D_matrix -= singular singularvalue*(outer product of u and v)
+
+        if n>m:
+            v = svd_for_1d(1_D_matrix, epsilon=epsilon)
+            u_unnormalized = dot product(matrix, v)
+            sigma = normalization of u_unnormalized
+            u = u_unnormalized/sigma
+
+        else:
+            u = svd_for_1d(matrixFor1D, epsilon=epsilon)
+            v_unnormalized = dot product of transpose(A), u
+            sigma = normalization of v_unnormalized
+            v = v_unnormalized/sigma
+
+        decomposition.append(sigma, u, v)
+
+    singular_values, us,vs = append to three different lists decomposition parameters
+        
+    return singular_values, us, vs
