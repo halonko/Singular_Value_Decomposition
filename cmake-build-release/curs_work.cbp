@@ -96,7 +96,7 @@
 		<Unit filename="/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Headers/functions.h">
 			<Option target="curs_work"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Headers/read_image.h">
+		<Unit filename="/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Headers/read_functions.h">
 			<Option target="curs_work"/>
 		</Unit>
 		<Unit filename="/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/Matrix.cpp">
@@ -105,7 +105,7 @@
 		<Unit filename="/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/functions.cpp">
 			<Option target="curs_work"/>
 		</Unit>
-		<Unit filename="/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/read_image.cpp">
+		<Unit filename="/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/read_functions.cpp">
 			<Option target="curs_work"/>
 		</Unit>
 		<Unit filename="/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/main.cpp">

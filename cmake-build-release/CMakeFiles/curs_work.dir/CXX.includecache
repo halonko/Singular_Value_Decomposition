@@ -16,6 +16,20 @@ thread
 math.h
 -
 
+../Headers/functions.h
+vector
+-
+random
+-
+Matrix.h
+../Headers/Matrix.h
+
+../Headers/read_functions.h
+vector
+-
+opencv2/opencv.hpp
+-
+
 /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Headers/Matrix.h
 vector
 -
@@ -42,13 +56,21 @@ Matrix.h
 ../Headers/functions.h
 /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Headers/functions.h
 
-/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/read_image.cpp
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/read_functions.cpp
+read_functions.h
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/read_functions.h
 
 /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/main.cpp
 stdio.h
 -
-opencv2/opencv.hpp
+iostream
 -
+Matrix.h
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Matrix.h
+functions.h
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/functions.h
+read_functions.h
+/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/read_functions.h
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h

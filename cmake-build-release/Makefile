@@ -177,32 +177,32 @@ Sources/functions.cpp.s:
 	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/Sources/functions.cpp.s
 .PHONY : Sources/functions.cpp.s
 
-Sources/read_image.o: Sources/read_image.cpp.o
+Sources/read_functions.o: Sources/read_functions.cpp.o
 
-.PHONY : Sources/read_image.o
+.PHONY : Sources/read_functions.o
 
 # target to build an object file
-Sources/read_image.cpp.o:
-	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/Sources/read_image.cpp.o
-.PHONY : Sources/read_image.cpp.o
+Sources/read_functions.cpp.o:
+	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o
+.PHONY : Sources/read_functions.cpp.o
 
-Sources/read_image.i: Sources/read_image.cpp.i
+Sources/read_functions.i: Sources/read_functions.cpp.i
 
-.PHONY : Sources/read_image.i
+.PHONY : Sources/read_functions.i
 
 # target to preprocess a source file
-Sources/read_image.cpp.i:
-	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/Sources/read_image.cpp.i
-.PHONY : Sources/read_image.cpp.i
+Sources/read_functions.cpp.i:
+	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/Sources/read_functions.cpp.i
+.PHONY : Sources/read_functions.cpp.i
 
-Sources/read_image.s: Sources/read_image.cpp.s
+Sources/read_functions.s: Sources/read_functions.cpp.s
 
-.PHONY : Sources/read_image.s
+.PHONY : Sources/read_functions.s
 
 # target to generate assembly for a file
-Sources/read_image.cpp.s:
-	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/Sources/read_image.cpp.s
-.PHONY : Sources/read_image.cpp.s
+Sources/read_functions.cpp.s:
+	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/Sources/read_functions.cpp.s
+.PHONY : Sources/read_functions.cpp.s
 
 main.o: main.cpp.o
 
@@ -246,9 +246,9 @@ help:
 	@echo "... Sources/functions.o"
 	@echo "... Sources/functions.i"
 	@echo "... Sources/functions.s"
-	@echo "... Sources/read_image.o"
-	@echo "... Sources/read_image.i"
-	@echo "... Sources/read_image.s"
+	@echo "... Sources/read_functions.o"
+	@echo "... Sources/read_functions.i"
+	@echo "... Sources/read_functions.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

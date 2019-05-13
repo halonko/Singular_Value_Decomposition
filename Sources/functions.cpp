@@ -1,15 +1,15 @@
 #include "../Headers/functions.h"
 
-using std::vector;
+using std::max;
 using std::min;
 using std::copy;
-using std::max;
+using std::vector;
 using std::random_device;
 using std::default_random_engine;
 using std::normal_distribution;
 
 Matrix normaldisribution(size_t n) {
-    Matrix one_d_array = Matrix(n, 1, 4);
+    Matrix one_d_array = Matrix(n, 1);
     default_random_engine generator(random_device{}());
     normal_distribution<double> distribution(0.0, 1.0);
     for (size_t index = 0; index < n; index++) {
@@ -28,10 +28,12 @@ Matrix RandomUnitVector(int n) {
 Matrix svd_for_1_d(Matrix &matrix, const double epsilon) {
     size_t n = matrix.column_size();
     size_t m = matrix.row_size();
+
     Matrix x = RandomUnitVector(min(n, m));
-    Matrix lastV = Matrix(min(n, m), 1, 4);
+
+    Matrix lastV = Matrix(min(n, m), 1);
     Matrix currentV = x;
-    Matrix result = Matrix(min(n, m), min(n, m), 4);
+    Matrix result = Matrix(min(n, m), min(n, m));
     if (n > m) {
         result = matrix.transpose().multiply_by(matrix);
     } else {
@@ -41,9 +43,43 @@ Matrix svd_for_1_d(Matrix &matrix, const double epsilon) {
         lastV = currentV;
         currentV = result.multiply_by(lastV);
         currentV.norm();
-        if (fabs(lastV.dot_product(currentV.transpose())) > 1 - epsilon) {
+        if (fabs(currentV.dot_product(lastV)) > (1 - epsilon)) {
             return currentV;
         }
     }
 }
 
+void SVD(Matrix &matrix, vector<double> &owner_double, vector<Matrix> &owner_u, vector<Matrix> &owner_v, size_t k,
+         const double epsilon) {
+    size_t n = matrix.column_size();
+    size_t m = matrix.row_size();
+    if (k == 0) {
+        k = min(n, m);
+    }
+    for (size_t i = 0; i < k; ++i) {
+        Matrix copied = Matrix(matrix);
+
+        for (size_t j = 0; j < i && j < owner_double.size(); ++j) {
+            copied.subtract(owner_u[j].multiply_by(owner_v[j].transpose(), owner_double[j]));
+        }
+
+        double sigma;
+        if (n > m) {
+            Matrix v = svd_for_1_d(copied, epsilon);
+            Matrix u = matrix.multiply_by(v);
+            sigma = u.lenght();
+            u.norm();
+            owner_u.push_back(u);
+            owner_v.push_back(v);
+        } else {
+            Matrix u = svd_for_1_d(copied);
+            Matrix v = matrix.transpose().multiply_by(u);
+            sigma = v.lenght();
+            v.norm();
+            owner_u.push_back(u);
+            owner_v.push_back(v);
+        }
+
+        owner_double.push_back(sigma);
+    }
+}

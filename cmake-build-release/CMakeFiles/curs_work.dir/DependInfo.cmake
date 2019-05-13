@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/Matrix.cpp" "/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-release/CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o"
   "/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/functions.cpp" "/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-release/CMakeFiles/curs_work.dir/Sources/functions.cpp.o"
-  "/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/read_image.cpp" "/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-release/CMakeFiles/curs_work.dir/Sources/read_image.cpp.o"
+  "/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/read_functions.cpp" "/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-release/CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o"
   "/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/main.cpp" "/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-release/CMakeFiles/curs_work.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
