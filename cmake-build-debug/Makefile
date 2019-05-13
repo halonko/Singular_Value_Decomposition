@@ -123,33 +123,6 @@ curs_work/fast:
 	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/build
 .PHONY : curs_work/fast
 
-Sources/Matrix.o: Sources/Matrix.cpp.o
-
-.PHONY : Sources/Matrix.o
-
-# target to build an object file
-Sources/Matrix.cpp.o:
-	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o
-.PHONY : Sources/Matrix.cpp.o
-
-Sources/Matrix.i: Sources/Matrix.cpp.i
-
-.PHONY : Sources/Matrix.i
-
-# target to preprocess a source file
-Sources/Matrix.cpp.i:
-	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/Sources/Matrix.cpp.i
-.PHONY : Sources/Matrix.cpp.i
-
-Sources/Matrix.s: Sources/Matrix.cpp.s
-
-.PHONY : Sources/Matrix.s
-
-# target to generate assembly for a file
-Sources/Matrix.cpp.s:
-	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/Sources/Matrix.cpp.s
-.PHONY : Sources/Matrix.cpp.s
-
 Sources/functions.o: Sources/functions.cpp.o
 
 .PHONY : Sources/functions.o
@@ -176,6 +149,33 @@ Sources/functions.s: Sources/functions.cpp.s
 Sources/functions.cpp.s:
 	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/Sources/functions.cpp.s
 .PHONY : Sources/functions.cpp.s
+
+Sources/my_matrix.o: Sources/my_matrix.cpp.o
+
+.PHONY : Sources/my_matrix.o
+
+# target to build an object file
+Sources/my_matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.o
+.PHONY : Sources/my_matrix.cpp.o
+
+Sources/my_matrix.i: Sources/my_matrix.cpp.i
+
+.PHONY : Sources/my_matrix.i
+
+# target to preprocess a source file
+Sources/my_matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.i
+.PHONY : Sources/my_matrix.cpp.i
+
+Sources/my_matrix.s: Sources/my_matrix.cpp.s
+
+.PHONY : Sources/my_matrix.s
+
+# target to generate assembly for a file
+Sources/my_matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.s
+.PHONY : Sources/my_matrix.cpp.s
 
 Sources/read_functions.o: Sources/read_functions.cpp.o
 
@@ -240,12 +240,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... curs_work"
 	@echo "... edit_cache"
-	@echo "... Sources/Matrix.o"
-	@echo "... Sources/Matrix.i"
-	@echo "... Sources/Matrix.s"
 	@echo "... Sources/functions.o"
 	@echo "... Sources/functions.i"
 	@echo "... Sources/functions.s"
+	@echo "... Sources/my_matrix.o"
+	@echo "... Sources/my_matrix.i"
+	@echo "... Sources/my_matrix.s"
 	@echo "... Sources/read_functions.o"
 	@echo "... Sources/read_functions.i"
 	@echo "... Sources/read_functions.s"

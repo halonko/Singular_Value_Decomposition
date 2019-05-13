@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Headers -I/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources -isystem /usr/local/include -isystem /usr/local/include/opencv 
+CXX_INCLUDES = -I/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Headers -I/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources -isystem /usr/local/include -isystem /usr/local/include/opencv -isystem /usr/include/eigen3 
 

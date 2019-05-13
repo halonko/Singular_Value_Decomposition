@@ -105,28 +105,28 @@ CMakeFiles/curs_work.dir/Sources/functions.cpp.o.provides: CMakeFiles/curs_work.
 CMakeFiles/curs_work.dir/Sources/functions.cpp.o.provides.build: CMakeFiles/curs_work.dir/Sources/functions.cpp.o
 
 
-CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o: CMakeFiles/curs_work.dir/flags.make
-CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o: ../Sources/Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o -c /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/Matrix.cpp
+CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.o: CMakeFiles/curs_work.dir/flags.make
+CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.o: ../Sources/my_matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/Second_year/Second_semester/LA/curs_work/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.o -c /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/my_matrix.cpp
 
-CMakeFiles/curs_work.dir/Sources/Matrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/curs_work.dir/Sources/Matrix.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/Matrix.cpp > CMakeFiles/curs_work.dir/Sources/Matrix.cpp.i
+CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/my_matrix.cpp > CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.i
 
-CMakeFiles/curs_work.dir/Sources/Matrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/curs_work.dir/Sources/Matrix.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/Matrix.cpp -o CMakeFiles/curs_work.dir/Sources/Matrix.cpp.s
+CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Sources/my_matrix.cpp -o CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.s
 
-CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o.requires:
+CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.o.requires:
 
-.PHONY : CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o.requires
+.PHONY : CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.o.requires
 
-CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o.provides: CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o.requires
-	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o.provides.build
-.PHONY : CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o.provides
+CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.o.provides: CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.o.requires
+	$(MAKE) -f CMakeFiles/curs_work.dir/build.make CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.o.provides.build
+.PHONY : CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.o.provides
 
-CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o.provides.build: CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o
+CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.o.provides.build: CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.o
 
 
 CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o: CMakeFiles/curs_work.dir/flags.make
@@ -157,7 +157,7 @@ CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o.provides.build: CMakeFiles
 curs_work_OBJECTS = \
 "CMakeFiles/curs_work.dir/main.cpp.o" \
 "CMakeFiles/curs_work.dir/Sources/functions.cpp.o" \
-"CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o" \
+"CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.o" \
 "CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o"
 
 # External object files for target curs_work
@@ -165,7 +165,7 @@ curs_work_EXTERNAL_OBJECTS =
 
 curs_work: CMakeFiles/curs_work.dir/main.cpp.o
 curs_work: CMakeFiles/curs_work.dir/Sources/functions.cpp.o
-curs_work: CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o
+curs_work: CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.o
 curs_work: CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o
 curs_work: CMakeFiles/curs_work.dir/build.make
 curs_work: /usr/local/lib/libopencv_stitching.so.3.3.1
@@ -225,7 +225,7 @@ CMakeFiles/curs_work.dir/build: curs_work
 
 CMakeFiles/curs_work.dir/requires: CMakeFiles/curs_work.dir/main.cpp.o.requires
 CMakeFiles/curs_work.dir/requires: CMakeFiles/curs_work.dir/Sources/functions.cpp.o.requires
-CMakeFiles/curs_work.dir/requires: CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o.requires
+CMakeFiles/curs_work.dir/requires: CMakeFiles/curs_work.dir/Sources/my_matrix.cpp.o.requires
 CMakeFiles/curs_work.dir/requires: CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o.requires
 
 .PHONY : CMakeFiles/curs_work.dir/requires

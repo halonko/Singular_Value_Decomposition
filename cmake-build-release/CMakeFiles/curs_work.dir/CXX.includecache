@@ -9,11 +9,11 @@
 ../Headers/Matrix.h
 vector
 -
-iostream
--
 thread
 -
 math.h
+-
+iostream
 -
 
 ../Headers/functions.h
@@ -33,11 +33,11 @@ opencv2/opencv.hpp
 /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Headers/Matrix.h
 vector
 -
-iostream
--
 thread
 -
 math.h
+-
+iostream
 -
 
 /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Headers/functions.h
@@ -64,6 +64,8 @@ read_functions.h
 stdio.h
 -
 iostream
+-
+thread
 -
 Matrix.h
 /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/Matrix.h

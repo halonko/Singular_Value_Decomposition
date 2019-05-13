@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <iostream>
-#include "Matrix.h"
+#include <thread>
+#include "my_matrix.h"
 #include "functions.h"
+#include "time_count.h"
 #include "read_functions.h"
 
 using std::cout;
@@ -18,38 +20,26 @@ int main(int argc, char **argv) {
         cout << "usage: image: <path to image>" << endl;
         return -1;
     }
-//    cv::Mat image;
-//    string image_name = argv[1];
-//    vector<vector<vector<double>>> array;
-//
-//    read_from_image(image_name, image);
-//
-//    convert_image_to_vector(image, array);
-//
-//    convert_vector_to_image(image, array);
-//
-//    write_image(image_name, image);
-    Matrix matrix(3, 2);
-    matrix.set_data(0, 0, 4);
-    matrix.set_data(0, 1, 11);
-    matrix.set_data(2, 0, 14);
-    matrix.set_data(1, 0, 8);
-    matrix.set_data(1, 1, 7);
-    matrix.set_data(2, 1, -2);
-    vector<double> owner_double;
-    vector<Matrix> owner_u;
-    vector<Matrix> owner_v;
-    SVD(matrix, owner_double, owner_u, owner_v);
-    for(auto &douler:owner_double){
-        cout << douler << endl;
-    }
-    for(auto &own_u:owner_u){
-        own_u.transpose().print();
-        cout << "=============" << endl;
-    }
-    for(auto &own_v:owner_v){
-        own_v.print();
-        cout << "=============" << endl;
-    }
+    auto start_time = get_current_time_fenced();
+    cv::Mat image;
+    string image_name = argv[1];
+    vector<vector<vector<double>>> array;
+
+    read_from_image(image_name, image);
+
+    convert_image_to_vector(image, array);
+
+    std::thread Thread1(run_SVD_on_matrix, std::ref(array[0]), 1, 1e-10),
+                Thread2(run_SVD_on_matrix, std::ref(array[1]), 1, 1e-10),
+                Thread3(run_SVD_on_matrix, std::ref(array[2]), 1, 1e-10);
+    Thread1.join();
+    Thread2.join();
+    Thread3.join();
+
+    convert_vector_to_image(image, array);
+
+    write_image("123.jpeg", image);
+    auto end_time = get_current_time_fenced();
+    cout << to_us(end_time-start_time) << endl;
     return 0;
 }
