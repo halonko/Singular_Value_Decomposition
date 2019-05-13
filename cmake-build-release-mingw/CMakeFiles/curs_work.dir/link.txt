@@ -1,3 +1,0 @@
-"C:\Users\Zenovii Popenyuk\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.7141.37\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\curs_work.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\curs_work.dir/objects.a @CMakeFiles\curs_work.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -O3 -DNDEBUG   -Wl,--whole-archive CMakeFiles\curs_work.dir/objects.a -Wl,--no-whole-archive  -o curs_work.exe -Wl,--out-implib,libcurs_work.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\curs_work.dir\linklibs.rsp

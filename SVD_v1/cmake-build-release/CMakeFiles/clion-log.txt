@@ -1,4 +1,0 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1
--- Configuring done
--- Generating done
--- Build files have been written to: /mnt/d/Projects/Second_year/Second_semester/LA/curs_work/SVD_v1/cmake-build-release
