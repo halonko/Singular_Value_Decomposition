@@ -11,14 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67044e05-c1d2-4700-b892-f9b80332000f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Headers/functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Headers/functions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Headers/my_matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Headers/my_matrix.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sources/functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Sources/functions.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sources/my_matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Sources/my_matrix.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="67044e05-c1d2-4700-b892-f9b80332000f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release-mingw/" />
@@ -31,6 +24,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -150,7 +144,7 @@
         <subPane>
           <expand>
             <path>
-              <item name="SVD_v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curs_work" type="b2602c69:ProjectViewProjectNode" />
               <item name="SVD_v2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -210,12 +204,12 @@
       <workItem from="1557569805072" duration="61162000" />
       <workItem from="1557754840374" duration="14013000" />
       <workItem from="1557781509605" duration="1285000" />
-      <workItem from="1557858815220" duration="16000" />
+      <workItem from="1557858815220" duration="157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99525000" />
+    <option name="totallyTimeSpent" value="99666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
