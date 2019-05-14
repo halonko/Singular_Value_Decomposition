@@ -61,10 +61,14 @@ void Matrix::print() const {
 }
 
 void Matrix::set_data(size_t index_row, size_t index_column, double data) {
+    if (index_row >= number_of_rows || index_column >= number_of_columns)
+        throw std::range_error("Too big index!");
     matrix.at(index_row).at(index_column) = data;
 }
 
 const double Matrix::get_data(size_t index_row, size_t index_column) const {
+    if (index_row >= number_of_rows || index_column >= number_of_columns)
+        throw std::range_error("Too big index!");
     return matrix.at(index_row).at(index_column);
 }
 

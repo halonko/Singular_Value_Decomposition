@@ -39,10 +39,14 @@ void my_matrix::print() const {
 }
 
 void my_matrix::set_data(size_t index_row, size_t index_column, double data) {
+    if(index_row >= number_of_rows || index_column >= number_of_columns)
+        throw std::range_error("Too big index!");
     matrix(index_row, index_column) = data;
 }
 
 const double my_matrix::get_data(size_t index_row, size_t index_column) const {
+    if (index_row >= number_of_rows || index_column >= number_of_columns)
+        throw std::range_error("Too big index!");
     return matrix(index_row, index_column);
 }
 

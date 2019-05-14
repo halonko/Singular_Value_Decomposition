@@ -13,7 +13,7 @@ public:
 
     my_matrix(const my_matrix &matrix);
 
-    explicit my_matrix(const std::vector<std::vector<double>> &origin);
+    my_matrix(const std::vector<std::vector<double>> &origin);
 
     my_matrix transpose();
 
