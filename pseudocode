@@ -1,0 +1,49 @@
+function SinValueDec(matrix, number_of_sv=None)
+    n,m = shapes of matrix
+    decomposition = empty list
+    if number_of_sv is None:
+        number_of_sv=min(n,m)
+
+    for i in range number_of_sv:
+        1_D_matrix = copy of A
+        for sv, u_vector, v_vector in decomposition[:i]:
+            1_D_matrix -= sv*(outer product of u_vector and v_vector)
+        if n>m:
+            v = 1Dimentional_SVD(1_D_matrix)
+            u_start = dot product(matrix, v_vector)
+            sigma = length of u_start
+            u_vector = u_start/sigma
+        else:
+            u = 1Dimentional_SVD(matrixFor1D)
+            v_start = dot product of transpose(A), u_vector
+            sigma = length of v_start
+            v_vector = v_start/sigma
+
+        decomposition.append(sv, u_vector, v_vector)
+    
+    return decompose array decomposition into two arrays
+
+
+function 1Dimentional_SVD (matrix, tolerance):
+    n,m = shape of a matrix
+    x = RandomVector(min(n,m)):
+    previous = None
+    next = x
+    if n>m:
+        square_m = dot product of transpose(matrix), matrix
+    else:
+        square_m = dot product of matrix, transpose(matrix)
+    while True:
+        previous = next
+        next = dot product of square_m, previous
+        next/vector_length(next)
+
+        if abs(np - dot product of next, previous) > 1- tolerance:
+            return next
+
+
+function RandomVector(l = length of vector):
+    beginned = list of l numbers which are taken from
+                    the normal distribution with mu=0, sigma=1
+    norm = length of vector (begin)
+    return beginned/norm
