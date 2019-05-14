@@ -14,7 +14,7 @@ function SinValueDec(matrix, number_of_sv=None)
             sigma = length of u_start
             u_vector = u_start/sigma
         else:
-            u = svd_for_1d(matrixFor1D, epsilon=epsilon)
+            u = 1Dimentional_SVD(matrixFor1D)
             v_start = dot product of transpose(A), u_vector
             sigma = length of v_start
             v_vector = v_start/sigma
