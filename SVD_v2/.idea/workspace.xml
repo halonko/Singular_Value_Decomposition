@@ -8,102 +8,16 @@
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
-      <configuration PROFILE_NAME="Release-MinGW" CONFIG_NAME="Release" TOOLCHAIN_NAME="MinGW" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67044e05-c1d2-4700-b892-f9b80332000f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sources/my_matrix.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/123.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/123.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/my_matrix.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/functions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/time_count.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/time_count.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/123.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/123.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/Headers/Matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/Headers/Matrix.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/Headers/functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/Headers/functions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/Headers/time_count.h" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/Headers/time_count.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/Sources/Matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/Sources/Matrix.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/Sources/functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/Sources/functions.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/Sources/read_functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/Sources/read_functions.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/curs_work.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/curs_work.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/curs_work.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/curs_work.dir/Sources/functions.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/curs_work.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/curs_work.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/curs_work.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/curs_work.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/curs_work.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/curs_work.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/curs_work.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/CMakeFiles/curs_work.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/curs_work.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-debug/curs_work.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/curs_work.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/curs_work.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/curs_work.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/curs_work.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/curs_work.dir/Sources/functions.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/curs_work.dir/Sources/functions.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/curs_work.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/curs_work.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/curs_work.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/curs_work.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/curs_work.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/curs_work.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/curs_work.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/curs_work.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/curs_work.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/CMakeFiles/curs_work.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/curs_work" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/curs_work" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/cmake-build-release/curs_work.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/cmake-build-release/curs_work.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD_v1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SVD_v1/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/Matrix.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/functions.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/read_functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/read_functions.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/Sources/functions.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/Sources/functions.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/Sources/read_functions.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/curs_work.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/curs_work" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/curs_work" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/curs_work.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/curs_work.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/Sources/Matrix.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/Sources/functions.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/Sources/functions.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/curs_work.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/curs_work" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/curs_work" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/curs_work.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/curs_work.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Headers/functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Headers/functions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Headers/my_matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Headers/my_matrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sources/functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Sources/functions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sources/my_matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Sources/my_matrix.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -117,7 +31,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -129,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -138,14 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Headers/time_count.h">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="44" selection-start-column="44" selection-end-column="44" />
-              <folding>
-                <element signature="e#220#237#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -199,7 +109,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -236,28 +146,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="curs_work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="curs_work" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="curs_work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="curs_work" type="462c0819:PsiDirectoryNode" />
-              <item name="Headers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="curs_work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="curs_work" type="462c0819:PsiDirectoryNode" />
-              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+              <item name="SVD_v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SVD_v2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,17 +210,17 @@
       <workItem from="1557569805072" duration="61162000" />
       <workItem from="1557754840374" duration="14013000" />
       <workItem from="1557781509605" duration="1285000" />
+      <workItem from="1557858815220" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99509000" />
+    <option name="totallyTimeSpent" value="99525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.25973153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.26308724" />
       <window_info id="Structure" order="1" sideWeight="0.5010571" side_tool="true" weight="0.25302014" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -347,9 +247,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config.txt" />
-    <entry file="file://$PROJECT_DIR$/123.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/123.jpeg" />
     <entry file="file://$PROJECT_DIR$/1234.jpeg" />
     <entry file="file://$PROJECT_DIR$/image-113_.jpeg" />
     <entry file="file://$PROJECT_DIR$/SPACE.JPG" />
@@ -371,9 +269,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image-113.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/image-113.jpeg" />
     <entry file="file://$USER_HOME$/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/eigen3/Eigen/src/Core/EigenBase.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-166">
@@ -437,13 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sources/read_functions.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -451,10 +340,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="82" />
+        <state relative-caret-position="102">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/read_functions.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -475,20 +371,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/read_functions.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Headers/time_count.h">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="44" selection-start-column="44" selection-end-column="44" />
-          <folding>
-            <element signature="e#220#237#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="82" />
         </state>
       </provider>
     </entry>
