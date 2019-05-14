@@ -1,0 +1,188 @@
+function [d,e, U, V]=QRZeroShift(d, e, U, V )
+%Compute QR zero shift
+%Algorithm by Demel and Kahan, Accurate singular values of    bidiagonal %matrices, 1990, pp. 14
+
+n = length(d);
+c_old = 1;
+c = 1;
+for i=1:n-1
+    %Compute Givens rotation
+    [c, s, r] = givens (c *d(i), e(i));
+    %Update items of V matrix applying Givens rotations
+    [V(:, i), V(:, i + 1)] = update (c, s, V(:, i), V (:, i + 1))
+    if (i ~=1 )
+        e(i-1) = r*s_old;
+    end
+    %Compute Givens rotation
+    [c_old, s_old, d(i)] = givens (c_old*r,d(i+1)*s);
+    %Update items of U matrix applying Givens rotations
+    %Possible error in article: update (c, s,...) found
+    [U(:, i), U(:, i + 1)] = update (c_old, s_old, U(:, i), U (:, i + 1) );
+end
+
+function [c,s,r]=givens(f,g)
+%Algorithm by Demel and Kahan, Accurate singular values of    bidiagonal %matrices, 1990, pp. 14
+if (f==0)
+    c=0; s=1; r=g;
+elseif (abs(f) > abs (g))
+    t = g/f; t1 = (1 + t*t)^0.5;
+    c = 1/t1;s = t*c;r = f*t1;
+else
+    t = f /g; t1 = (1 +t*t)^0.5;
+    s = 1/t1; c = t * s; r = g * t1;
+end
+
+
+%Actualize diagonal and superdiagonal
+h = c*d(n);
+e(n-1) = h*s_old;
+d(n) = h*c_old;
+
+dir=0;
+eps = 1e-010; 
+tol = 100*eps; 
+maxit = 3*(n^2); 
+fudge=min(m,n); 
+s=diag(B);
+e=diag(B,1);
+lambda=abs(s);
+for j=n-1:-1:1
+    lambdas(j)=abs(s(j))*(lambda(j+1)/(lambda(j+1)+abs(e(j))));
+end
+mu(1)=abs(s(1));
+for j = 1:n-1
+    mu(j+1) = abs(s(j+1))*(mu(j)/(mu(j)+abs(e(j))));
+end
+lambdaMin=min(lambdas);
+muMin=min(mu);
+sigmaLower = min(lambdaMin,muMin);
+s1=max(abs(s));
+e1=max(abs(e));
+sigmaUpper = max(s1,e1);
+thresh = max((tol*sigmaLower),(maxit*realmin));
+for iter=1:maxit
+    for i=1:n-1
+    if abs(e(i))<=thresh
+      iUpper=i;
+    else iUpper=n;
+    end
+  end
+  if iUpper==1  
+    break;
+  end
+  
+  for i=n-1:-1:1
+    if abs(e(i))<=thresh
+      iPrime=i;
+    else iPrime=0;
+    end
+  end
+  iLower=iPrime+1;
+        tmp=B(iLower:iUpper,iLower:iUpper);
+  if iUpper==iLower+1
+                [s,e]=ZeroShiftQR(s,e,iLower,iUpper,1);
+                e(iLower)=0;
+    B(iLower:iUpper,iLower:iUpper)=diag(s)+diag(e,1);
+    continue;
+  end
+        if B(iLower:iUpper,iLower:iUpper)~=tmp
+    s=diag(B);
+    e=diag(B,1);
+    if abs(s(iLower))<=abs(s(iUpper))
+      dir=1;
+    else dir=2;
+    end
+  end
+    % Convergence criteria
+    if dir==1 % Convergence criteria 1b,1a,2a
+        if abs(e(iUpper-1)/lambdas(iUpper))<=tol % 1b to e(iUpper-1)
+            e(iUpper-1)=0;
+        end
+        for j=1:n-1 % Criteria 1a
+            if abs(e(j)/mu(j))<=tol
+                e(j)=0;
+            end
+        end
+        % Criteria 2a to e(iUpper-1)
+        tmp=mu(1)/sqrt(n-1);
+        for i=2:n-1
+            if mu(i)/sqrt(n-1)<tmp
+                tmp=mu(i)/sqrt(n-1);
+            end
+        end
+        if e(iUpper-1)*e(iUpper-1)<=0.5*tol*(tmp*tmp-abs(s(iUpper))*abs(s(iUpper)))
+            e(iUpper-1)=0;
+        end
+    else % Convergence criteria 1a,1b,2b
+        if abs(e(iLower)/mu(iLower))<=tol % Criteria 1a to e(iLower)
+            e(iLower)=0;
+        end
+        for j=n-1:-1:1 % Criteria 1b
+            if abs(e(j)/lambdas(j))<=tol
+                e(j)=0;
+            end
+        end
+        % Criteria 2b 
+        tmp=lambdas(2)/sqrt(n-1);
+        for i=3:n-1
+            if lambdas(i)/sqrt(n-1)<tmp
+               tmp=lambdas(i)/sqrt(n-1);
+            end
+        end
+        if e(iLower)*e(iLower)<=0.5*tol*(tmp*tmp-abs(s(iLower))*abs(s(iLower)))
+            e(iLower)=0;
+        end
+    end
+    % Compute the shift
+  if (fudge*tol*sigmaLower/sigmaUpper)<=eps
+        shift=0;
+    else if dir==1
+            w=s(iUpper);
+            C=diag(s)+diag(e,1);
+            C=C*C';
+            C=C(end-1:end,end-1:end);
+            [lambda_1,lambda_2] = eig2(C); % Calculate the eigenvalues of C
+            if abs(C(2,2)-lambda_1)<abs(C(2,2)-lambda_2)
+                shift=lambda_1;
+            else shift=lambda_2;
+            end
+        else w=s(iLower);
+             C=diag(s)+diag(e,1);
+             C=C*C';
+             C=C(1:2,1:2);
+             [lambda_1,lambda_2] = eig2(C);
+             if abs(C(2,2)-lambda_1)<abs(C(2,2)-lambda_2)
+                shift=lambda_1;
+             else shift=lambda_2;
+             end
+        end
+        if (shift/w)^2<=eps
+            shift=0;
+        end
+    end
+    % QR iterations
+  if shift==0
+        if dir==1
+            [s,e]=ZeroShiftQR(s,e,iLower,iUpper,1); % Zero-shift QR iterations with direction down
+            if e(iUpper-1)<=thresh
+                e(iUpper-1)=0;
+            end
+        else [s,e]=ZeroShiftQR(s,e,iLower,iUpper,2); % Zero-shift QR iterations with direction up
+            if e(iLower)<=thresh
+                e(iLower)=0;
+            end
+        end
+    else if dir==1
+            [s,e]=ZeroShiftQR(s,e,iLower,iUpper,1); % This is where it should be applied the shifted QR dir. down
+            if e(iUpper-1)<=thresh
+                e(iUpper-1)=0;
+            end
+        else  [s,e]=ZeroShiftQR(s,e,iLower,iUpper,2); % This is where it should be applied the shifted QR dir. up
+            if e(iLower)<=thresh
+                e(iLower)=0;
+            end
+        end
+    end     
+end
+% Sort singular values
+s=sort(abs(s),'descend')
