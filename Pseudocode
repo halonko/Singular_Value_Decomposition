@@ -1,0 +1,24 @@
+function SinValueDec(matrix, number_of_sv=None)
+    n,m = shapes of matrix
+    decomposition = empty array
+    if number_of_sv is None:
+        number_of_sv=min(n,m)
+
+    for i in range number_of_sv:
+        1_D_matrix = copy of matrix
+        for sv, u_vector, v_vector in decomposition[:i]:
+            1_D_matrix -= sv*(outer product of u_vector and v_vector)
+        if n>m:
+            v = 1Dimentional_SVD(1_D_matrix)
+            u_start = dot product(matrix, v_vector)
+            sigma = length of u_start
+            u_vector = u_start/sigma
+        else:
+            u = 1Dimentional_SVD(1_D_matrix)
+            v_start = dot product of transpose(matrix), u_vector
+            sigma = length of v_start
+            v_vector = v_start/sigma
+
+        decomposition.append(sv, u_vector, v_vector)
+    
+    return decompose array decomposition into three arrays
